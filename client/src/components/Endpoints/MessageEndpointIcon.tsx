@@ -202,8 +202,6 @@ const MessageEndpointIcon: React.FC<IconProps> = (props) => {
       title={name ?? ''}
       style={{
         background: bg != null ? bg || 'transparent' : 'transparent',
-        width: size,
-        height: size,
       }}
       className={cn(
         'relative flex h-9 w-9 items-center justify-center rounded-sm p-1 text-white',
